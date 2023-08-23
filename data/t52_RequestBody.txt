@@ -1,0 +1,2 @@
+"location=Sydney&hotels=Hotel+Creek&room_type=Double&room_nos=8&datepick_in=23%2F08%2F2023&date"
+"pick_out=24%2F08%2F2023&adult_room=2&child_room=2&Submit=Search&datepick_diff=1"

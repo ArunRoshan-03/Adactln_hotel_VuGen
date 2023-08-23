@@ -1,0 +1,328 @@
+Virtual User Script started at: 23-Aug-23 9:26:35 PM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2023.1.0 for Windows 10; build 406 (Jul 12 2023 09:14:26)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\arunroshan.r\Documents\VuGen\Scripts\Adactin_Hotel\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action TC_01_lanuch.
+TC_01_lanuch.c(3): web_set_sockets_option started  	[MsgId: MMSG-26355]
+TC_01_lanuch.c(3): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+TC_01_lanuch.c(4): web_url("adactinhotelapp.com") started  	[MsgId: MMSG-26355]
+TC_01_lanuch.c(4): Found resource "https://adactinhotelapp.com/css/main.css" in HTML "https://adactinhotelapp.com/"  	[MsgId: MMSG-26659]
+TC_01_lanuch.c(4): Found resource "https://adactinhotelapp.com/js/login.js" in HTML "https://adactinhotelapp.com/"  	[MsgId: MMSG-26659]
+TC_01_lanuch.c(4): Found resource "https://adactinhotelapp.com/img/AdactIn_logo.png" in HTML "https://adactinhotelapp.com/"  	[MsgId: MMSG-26659]
+TC_01_lanuch.c(4): Found resource "https://adactinhotelapp.com/img/hotel.jpg" in HTML "https://adactinhotelapp.com/"  	[MsgId: MMSG-26659]
+TC_01_lanuch.c(4): Found resource "https://adactinhotelapp.com/img/main-image-hotel-app.png" in HTML "https://adactinhotelapp.com/"  	[MsgId: MMSG-26659]
+TC_01_lanuch.c(4): Found resource "https://adactinhotelapp.com/img/ios-button.png" in HTML "https://adactinhotelapp.com/"  	[MsgId: MMSG-26659]
+TC_01_lanuch.c(4): Found resource "https://adactinhotelapp.com/img/google-play.png" in HTML "https://adactinhotelapp.com/"  	[MsgId: MMSG-26659]
+TC_01_lanuch.c(4): web_url("adactinhotelapp.com") was successful, 1054595 body bytes, 2488 header bytes, 13 chunking overhead bytes  	[MsgId: MMSG-26385]
+Ending action TC_01_lanuch.
+Starting action TC_02_login.
+TC_02_login.c(9): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+TC_02_login.c(9): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+TC_02_login.c(20): web_submit_data("adactinhotelapp.com_2") started  	[MsgId: MMSG-26355]
+TC_02_login.c(20): Redirecting "https://adactinhotelapp.com/" (redirection depth is 0)  	[MsgId: MMSG-26694]
+TC_02_login.c(20): To location "https://adactinhotelapp.com/SearchHotel.php"  	[MsgId: MMSG-26693]
+TC_02_login.c(20): Resource "https://adactinhotelapp.com/css/main.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_02_login.c(20): Found resource "https://adactinhotelapp.com/js/search_hotel.js" in HTML "https://adactinhotelapp.com/SearchHotel.php"  	[MsgId: MMSG-26659]
+TC_02_login.c(20): Resource "https://adactinhotelapp.com/img/AdactIn_logo.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_02_login.c(20): Resource "https://adactinhotelapp.com/img/hotel.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_02_login.c(20): Detected non-resource "http://www.adactinhotelapp.com/img-horizontal-carousel/index.html" in "https://adactinhotelapp.com/SearchHotel.php"  	[MsgId: MMSG-26573]
+TC_02_login.c(20): Notify: Saving Parameter "C_location_1 = - Select Location -".
+TC_02_login.c(20): Notify: Saving Parameter "C_location_2 = Sydney".
+TC_02_login.c(20): Notify: Saving Parameter "C_location_3 = Melbourne".
+TC_02_login.c(20): Notify: Saving Parameter "C_location_4 = Brisbane".
+TC_02_login.c(20): Notify: Saving Parameter "C_location_5 = Adelaide".
+TC_02_login.c(20): Notify: Saving Parameter "C_location_6 = London".
+TC_02_login.c(20): Notify: Saving Parameter "C_location_7 = New York".
+TC_02_login.c(20): Notify: Saving Parameter "C_location_8 = Los Angeles".
+TC_02_login.c(20): Notify: Saving Parameter "C_location_9 = Paris".
+TC_02_login.c(20): Notify: Saving Parameter "C_location_10 = - Select Hotel -".
+TC_02_login.c(20): Notify: Saving Parameter "C_location_11 = Hotel Creek".
+TC_02_login.c(20): Notify: Saving Parameter "C_location_12 = Hotel Sunshine".
+TC_02_login.c(20): Notify: Saving Parameter "C_location_13 = Hotel Hervey".
+TC_02_login.c(20): Notify: Saving Parameter "C_location_14 = Hotel Cornice".
+TC_02_login.c(20): Notify: Saving Parameter "C_location_15 = - Select Room Type -".
+TC_02_login.c(20): Notify: Saving Parameter "C_location_16 = Standard".
+TC_02_login.c(20): Notify: Saving Parameter "C_location_17 = Double".
+TC_02_login.c(20): Notify: Saving Parameter "C_location_18 = Deluxe".
+TC_02_login.c(20): Notify: Saving Parameter "C_location_19 = Super Deluxe".
+TC_02_login.c(20): Notify: Saving Parameter "C_location_20 = - Select Number of Rooms -".
+TC_02_login.c(20): Notify: Saving Parameter "C_location_21 = 1 - One".
+TC_02_login.c(20): Notify: Saving Parameter "C_location_22 = 2 - Two".
+TC_02_login.c(20): Notify: Saving Parameter "C_location_23 = 3 - Three".
+TC_02_login.c(20): Notify: Saving Parameter "C_location_24 = 4 - Four".
+TC_02_login.c(20): Notify: Saving Parameter "C_location_25 = 5 - Five".
+TC_02_login.c(20): Notify: Saving Parameter "C_location_26 = 6 - Six".
+TC_02_login.c(20): Notify: Saving Parameter "C_location_27 = 7 - Seven".
+TC_02_login.c(20): Notify: Saving Parameter "C_location_28 = 8 - Eight".
+TC_02_login.c(20): Notify: Saving Parameter "C_location_29 = 9 - Nine".
+TC_02_login.c(20): Notify: Saving Parameter "C_location_30 = 10 - Ten".
+TC_02_login.c(20): Notify: Saving Parameter "C_location_31 = - Select Adults per Room -".
+TC_02_login.c(20): Notify: Saving Parameter "C_location_32 = 1 - One".
+TC_02_login.c(20): Notify: Saving Parameter "C_location_33 = 2 - Two".
+TC_02_login.c(20): Notify: Saving Parameter "C_location_34 = 3 - Three".
+TC_02_login.c(20): Notify: Saving Parameter "C_location_35 = 4 - Four".
+TC_02_login.c(20): Notify: Saving Parameter "C_location_36 = 0 - None".
+TC_02_login.c(20): Notify: Saving Parameter "C_location_37 = 1 - One".
+TC_02_login.c(20): Notify: Saving Parameter "C_location_38 = 2 - Two".
+TC_02_login.c(20): Notify: Saving Parameter "C_location_39 = 3 - Three".
+TC_02_login.c(20): Notify: Saving Parameter "C_location_40 = 4 - Four".
+TC_02_login.c(20): Found resource "http://www.adactinhotelapp.com/img-horizontal-carousel/imgScroll.css" in HTML "http://www.adactinhotelapp.com/img-horizontal-carousel/index.html"  	[MsgId: MMSG-26659]
+TC_02_login.c(20): Found resource "http://adactinhotelapp.com/img/TestAutomationMS_CodedUI.jpg" in HTML "http://www.adactinhotelapp.com/img-horizontal-carousel/index.html"  	[MsgId: MMSG-26659]
+TC_02_login.c(20): Found resource "http://adactinhotelapp.com/img/ISTQB_foundation_level_exam.jpg" in HTML "http://www.adactinhotelapp.com/img-horizontal-carousel/index.html"  	[MsgId: MMSG-26659]
+TC_02_login.c(20): Found resource "http://adactinhotelapp.com/img/book_selenium_webdriver_app.png" in HTML "http://www.adactinhotelapp.com/img-horizontal-carousel/index.html"  	[MsgId: MMSG-26659]
+TC_02_login.c(20): Found resource "http://adactinhotelapp.com/img/book_hp_uft_navneesh_garg_hotelapp.png" in HTML "http://www.adactinhotelapp.com/img-horizontal-carousel/index.html"  	[MsgId: MMSG-26659]
+TC_02_login.c(20): Found resource "http://adactinhotelapp.com/img/TestAutomationSeleniumWebdriverCsharp.jpg" in HTML "http://www.adactinhotelapp.com/img-horizontal-carousel/index.html"  	[MsgId: MMSG-26659]
+TC_02_login.c(20): Found resource "https://code.jquery.com/jquery-1.12.4.min.js" in HTML "http://www.adactinhotelapp.com/img-horizontal-carousel/index.html"  	[MsgId: MMSG-26659]
+TC_02_login.c(20): Found resource "http://www.adactinhotelapp.com/img-horizontal-carousel/img-scroll.js" in HTML "http://www.adactinhotelapp.com/img-horizontal-carousel/index.html"  	[MsgId: MMSG-26659]
+TC_02_login.c(20): Notify: Saving Parameter "C_location_count = 40".
+TC_02_login.c(20): web_submit_data("adactinhotelapp.com_2") was successful, 254380 body bytes, 4041 header bytes, 33 chunking overhead bytes  	[MsgId: MMSG-26385]
+TC_02_login.c(33): Notify: Parameter Substitution: parameter "C_location_count" =  "40"
+TC_02_login.c(36): Parameter Name: C_location
+TC_02_login.c(37): Notify: Parameter Substitution: parameter "C_location_1" =  "- Select Location -"
+TC_02_login.c(38): C_location = - Select Location -
+TC_02_login.c(48): Warning: Invalid parameter detected in function.
+TC_02_login.c(36): Parameter Name: C_location
+TC_02_login.c(37): Notify: Parameter Substitution: parameter "C_location_2" =  "Sydney"
+TC_02_login.c(38): C_location = Sydney
+TC_02_login.c(36): Parameter Name: C_location
+TC_02_login.c(37): Notify: Parameter Substitution: parameter "C_location_3" =  "Melbourne"
+TC_02_login.c(38): C_location = Melbourne
+TC_02_login.c(36): Parameter Name: C_location
+TC_02_login.c(37): Notify: Parameter Substitution: parameter "C_location_4" =  "Brisbane"
+TC_02_login.c(38): C_location = Brisbane
+TC_02_login.c(36): Parameter Name: C_location
+TC_02_login.c(37): Notify: Parameter Substitution: parameter "C_location_5" =  "Adelaide"
+TC_02_login.c(38): C_location = Adelaide
+TC_02_login.c(36): Parameter Name: C_location
+TC_02_login.c(37): Notify: Parameter Substitution: parameter "C_location_6" =  "London"
+TC_02_login.c(38): C_location = London
+TC_02_login.c(36): Parameter Name: C_location
+TC_02_login.c(37): Notify: Parameter Substitution: parameter "C_location_7" =  "New York"
+TC_02_login.c(38): C_location = New York
+TC_02_login.c(36): Parameter Name: C_location
+TC_02_login.c(37): Notify: Parameter Substitution: parameter "C_location_8" =  "Los Angeles"
+TC_02_login.c(38): C_location = Los Angeles
+TC_02_login.c(36): Parameter Name: C_location
+TC_02_login.c(37): Notify: Parameter Substitution: parameter "C_location_9" =  "Paris"
+TC_02_login.c(38): C_location = Paris
+TC_02_login.c(36): Parameter Name: C_location
+TC_02_login.c(37): Notify: Parameter Substitution: parameter "C_location_10" =  "- Select Hotel -"
+TC_02_login.c(38): C_location = - Select Hotel -
+TC_02_login.c(36): Parameter Name: C_location
+TC_02_login.c(37): Notify: Parameter Substitution: parameter "C_location_11" =  "Hotel Creek"
+TC_02_login.c(38): C_location = Hotel Creek
+TC_02_login.c(36): Parameter Name: C_location
+TC_02_login.c(37): Notify: Parameter Substitution: parameter "C_location_12" =  "Hotel Sunshine"
+TC_02_login.c(38): C_location = Hotel Sunshine
+TC_02_login.c(36): Parameter Name: C_location
+TC_02_login.c(37): Notify: Parameter Substitution: parameter "C_location_13" =  "Hotel Hervey"
+TC_02_login.c(38): C_location = Hotel Hervey
+TC_02_login.c(36): Parameter Name: C_location
+TC_02_login.c(37): Notify: Parameter Substitution: parameter "C_location_14" =  "Hotel Cornice"
+TC_02_login.c(38): C_location = Hotel Cornice
+TC_02_login.c(36): Parameter Name: C_location
+TC_02_login.c(37): Notify: Parameter Substitution: parameter "C_location_15" =  "- Select Room Type -"
+TC_02_login.c(38): C_location = - Select Room Type -
+TC_02_login.c(36): Parameter Name: C_location
+TC_02_login.c(37): Notify: Parameter Substitution: parameter "C_location_16" =  "Standard"
+TC_02_login.c(38): C_location = Standard
+TC_02_login.c(36): Parameter Name: C_location
+TC_02_login.c(37): Notify: Parameter Substitution: parameter "C_location_17" =  "Double"
+TC_02_login.c(38): C_location = Double
+TC_02_login.c(36): Parameter Name: C_location
+TC_02_login.c(37): Notify: Parameter Substitution: parameter "C_location_18" =  "Deluxe"
+TC_02_login.c(38): C_location = Deluxe
+TC_02_login.c(36): Parameter Name: C_location
+TC_02_login.c(37): Notify: Parameter Substitution: parameter "C_location_19" =  "Super Deluxe"
+TC_02_login.c(38): C_location = Super Deluxe
+TC_02_login.c(36): Parameter Name: C_location
+TC_02_login.c(37): Notify: Parameter Substitution: parameter "C_location_20" =  "- Select Number of Rooms -"
+TC_02_login.c(38): C_location = - Select Number of Rooms -
+TC_02_login.c(36): Parameter Name: C_location
+TC_02_login.c(37): Notify: Parameter Substitution: parameter "C_location_21" =  "1 - One"
+TC_02_login.c(38): C_location = 1 - One
+TC_02_login.c(36): Parameter Name: C_location
+TC_02_login.c(37): Notify: Parameter Substitution: parameter "C_location_22" =  "2 - Two"
+TC_02_login.c(38): C_location = 2 - Two
+TC_02_login.c(36): Parameter Name: C_location
+TC_02_login.c(37): Notify: Parameter Substitution: parameter "C_location_23" =  "3 - Three"
+TC_02_login.c(38): C_location = 3 - Three
+TC_02_login.c(36): Parameter Name: C_location
+TC_02_login.c(37): Notify: Parameter Substitution: parameter "C_location_24" =  "4 - Four"
+TC_02_login.c(38): C_location = 4 - Four
+TC_02_login.c(36): Parameter Name: C_location
+TC_02_login.c(37): Notify: Parameter Substitution: parameter "C_location_25" =  "5 - Five"
+TC_02_login.c(38): C_location = 5 - Five
+TC_02_login.c(36): Parameter Name: C_location
+TC_02_login.c(37): Notify: Parameter Substitution: parameter "C_location_26" =  "6 - Six"
+TC_02_login.c(38): C_location = 6 - Six
+TC_02_login.c(36): Parameter Name: C_location
+TC_02_login.c(37): Notify: Parameter Substitution: parameter "C_location_27" =  "7 - Seven"
+TC_02_login.c(38): C_location = 7 - Seven
+TC_02_login.c(36): Parameter Name: C_location
+TC_02_login.c(37): Notify: Parameter Substitution: parameter "C_location_28" =  "8 - Eight"
+TC_02_login.c(38): C_location = 8 - Eight
+TC_02_login.c(36): Parameter Name: C_location
+TC_02_login.c(37): Notify: Parameter Substitution: parameter "C_location_29" =  "9 - Nine"
+TC_02_login.c(38): C_location = 9 - Nine
+TC_02_login.c(36): Parameter Name: C_location
+TC_02_login.c(37): Notify: Parameter Substitution: parameter "C_location_30" =  "10 - Ten"
+TC_02_login.c(38): C_location = 10 - Ten
+TC_02_login.c(36): Parameter Name: C_location
+TC_02_login.c(37): Notify: Parameter Substitution: parameter "C_location_31" =  "- Select Adults per Room -"
+TC_02_login.c(38): C_location = - Select Adults per Room -
+TC_02_login.c(36): Parameter Name: C_location
+TC_02_login.c(37): Notify: Parameter Substitution: parameter "C_location_32" =  "1 - One"
+TC_02_login.c(38): C_location = 1 - One
+TC_02_login.c(36): Parameter Name: C_location
+TC_02_login.c(37): Notify: Parameter Substitution: parameter "C_location_33" =  "2 - Two"
+TC_02_login.c(38): C_location = 2 - Two
+TC_02_login.c(36): Parameter Name: C_location
+TC_02_login.c(37): Notify: Parameter Substitution: parameter "C_location_34" =  "3 - Three"
+TC_02_login.c(38): C_location = 3 - Three
+TC_02_login.c(36): Parameter Name: C_location
+TC_02_login.c(37): Notify: Parameter Substitution: parameter "C_location_35" =  "4 - Four"
+TC_02_login.c(38): C_location = 4 - Four
+TC_02_login.c(36): Parameter Name: C_location
+TC_02_login.c(37): Notify: Parameter Substitution: parameter "C_location_36" =  "0 - None"
+TC_02_login.c(38): C_location = 0 - None
+TC_02_login.c(36): Parameter Name: C_location
+TC_02_login.c(37): Notify: Parameter Substitution: parameter "C_location_37" =  "1 - One"
+TC_02_login.c(38): C_location = 1 - One
+TC_02_login.c(36): Parameter Name: C_location
+TC_02_login.c(37): Notify: Parameter Substitution: parameter "C_location_38" =  "2 - Two"
+TC_02_login.c(38): C_location = 2 - Two
+TC_02_login.c(36): Parameter Name: C_location
+TC_02_login.c(37): Notify: Parameter Substitution: parameter "C_location_39" =  "3 - Three"
+TC_02_login.c(38): C_location = 3 - Three
+TC_02_login.c(36): Parameter Name: C_location
+TC_02_login.c(37): Notify: Parameter Substitution: parameter "C_location_40" =  "4 - Four"
+TC_02_login.c(38): C_location = 4 - Four
+Ending action TC_02_login.
+Starting action TC_03_search_hotel.
+TC_03_search_hotel.c(9): Notify: Saving Parameter "P_pick_in = 05/11/2028".
+TC_03_search_hotel.c(11): Notify: Saving Parameter "P_pick_out = 04/10/2027".
+TC_03_search_hotel.c(13): web_submit_data("SelectHotel.php") started  	[MsgId: MMSG-26355]
+TC_03_search_hotel.c(13): Notify: Parameter Substitution: parameter "p_location" =  "Melbourne"
+TC_03_search_hotel.c(13): Notify: Parameter Substitution: parameter "p_hotel_name" =  "Hotel Sunshine"
+TC_03_search_hotel.c(13): Notify: Parameter Substitution: parameter "p_room_types" =  "Double"
+TC_03_search_hotel.c(13): Notify: Parameter Substitution: parameter "p_room" =  "2 - Two"
+TC_03_search_hotel.c(13): Notify: Parameter Substitution: parameter "P_pick_in" =  "05/11/2028"
+TC_03_search_hotel.c(13): Notify: Parameter Substitution: parameter "P_pick_out" =  "04/10/2027"
+TC_03_search_hotel.c(13): Notify: Parameter Substitution: parameter "p_adults_per_room" =  "2"
+TC_03_search_hotel.c(13): Resource "https://adactinhotelapp.com/css/main.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_03_search_hotel.c(13): Found resource "https://adactinhotelapp.com/js/select_hotel.js" in HTML "https://adactinhotelapp.com/SelectHotel.php"  	[MsgId: MMSG-26659]
+TC_03_search_hotel.c(13): Resource "https://adactinhotelapp.com/img/AdactIn_logo.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_03_search_hotel.c(13): Resource "https://adactinhotelapp.com/img/hotel.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_03_search_hotel.c(13): Detected non-resource "http://www.adactinhotelapp.com/img-horizontal-carousel/index.html" in "https://adactinhotelapp.com/SelectHotel.php"  	[MsgId: MMSG-26573]
+TC_03_search_hotel.c(13): Retrieving data from cache for "http://www.adactinhotelapp.com/img-horizontal-carousel/index.html"  	[MsgId: MMSG-26557]
+TC_03_search_hotel.c(13): Resource "http://www.adactinhotelapp.com/img-horizontal-carousel/imgScroll.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_03_search_hotel.c(13): Resource "http://adactinhotelapp.com/img/TestAutomationMS_CodedUI.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_03_search_hotel.c(13): Resource "http://adactinhotelapp.com/img/ISTQB_foundation_level_exam.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_03_search_hotel.c(13): Resource "http://adactinhotelapp.com/img/book_selenium_webdriver_app.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_03_search_hotel.c(13): Resource "http://adactinhotelapp.com/img/book_hp_uft_navneesh_garg_hotelapp.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_03_search_hotel.c(13): Resource "http://adactinhotelapp.com/img/TestAutomationSeleniumWebdriverCsharp.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_03_search_hotel.c(13): Resource "https://code.jquery.com/jquery-1.12.4.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_03_search_hotel.c(13): Resource "http://www.adactinhotelapp.com/img-horizontal-carousel/img-scroll.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_03_search_hotel.c(13): web_submit_data("SelectHotel.php") was successful, 12795 body bytes, 634 header bytes, 20 chunking overhead bytes  	[MsgId: MMSG-26385]
+Ending action TC_03_search_hotel.
+Starting action TC_04_select_hotel.
+TC_04_select_hotel.c(6): web_submit_data("BookHotel.php") started  	[MsgId: MMSG-26355]
+TC_04_select_hotel.c(6): Notify: Parameter Substitution: parameter "p_hotel_name" =  "Hotel Sunshine"
+TC_04_select_hotel.c(6): Notify: Parameter Substitution: parameter "p_location" =  "Melbourne"
+TC_04_select_hotel.c(6): Notify: Parameter Substitution: parameter "p_room" =  "2 - Two"
+TC_04_select_hotel.c(6): Notify: Parameter Substitution: parameter "P_pick_in" =  "05/11/2028"
+TC_04_select_hotel.c(6): Notify: Parameter Substitution: parameter "P_pick_out" =  "04/10/2027"
+TC_04_select_hotel.c(6): Notify: Parameter Substitution: parameter "p_room_types" =  "Double"
+TC_04_select_hotel.c(6): Notify: Parameter Substitution: parameter "p_hotel_name" =  "Hotel Sunshine"
+TC_04_select_hotel.c(6): Notify: Parameter Substitution: parameter "p_location" =  "Melbourne"
+TC_04_select_hotel.c(6): Notify: Parameter Substitution: parameter "p_room_types" =  "Double"
+TC_04_select_hotel.c(6): Notify: Parameter Substitution: parameter "p_room" =  "2 - Two"
+TC_04_select_hotel.c(6): Notify: Parameter Substitution: parameter "P_pick_out" =  "04/10/2027"
+TC_04_select_hotel.c(6): Notify: Parameter Substitution: parameter "P_pick_in" =  "05/11/2028"
+TC_04_select_hotel.c(6): Notify: Parameter Substitution: parameter "p_adults_per_room" =  "2"
+TC_04_select_hotel.c(6): Resource "https://adactinhotelapp.com/css/main.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_04_select_hotel.c(6): Found resource "https://adactinhotelapp.com/js/book_hotel.js" in HTML "https://adactinhotelapp.com/BookHotel.php"  	[MsgId: MMSG-26659]
+TC_04_select_hotel.c(6): Resource "https://adactinhotelapp.com/img/AdactIn_logo.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_04_select_hotel.c(6): Resource "https://adactinhotelapp.com/img/hotel.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_04_select_hotel.c(6): Detected non-resource "http://www.adactinhotelapp.com/img-horizontal-carousel/index.html" in "https://adactinhotelapp.com/BookHotel.php"  	[MsgId: MMSG-26573]
+TC_04_select_hotel.c(6): Retrieving data from cache for "http://www.adactinhotelapp.com/img-horizontal-carousel/index.html"  	[MsgId: MMSG-26557]
+TC_04_select_hotel.c(6): Resource "http://www.adactinhotelapp.com/img-horizontal-carousel/imgScroll.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_04_select_hotel.c(6): Resource "http://adactinhotelapp.com/img/TestAutomationMS_CodedUI.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_04_select_hotel.c(6): Resource "http://adactinhotelapp.com/img/ISTQB_foundation_level_exam.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_04_select_hotel.c(6): Resource "http://adactinhotelapp.com/img/book_selenium_webdriver_app.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_04_select_hotel.c(6): Resource "http://adactinhotelapp.com/img/book_hp_uft_navneesh_garg_hotelapp.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_04_select_hotel.c(6): Resource "http://adactinhotelapp.com/img/TestAutomationSeleniumWebdriverCsharp.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_04_select_hotel.c(6): Resource "https://code.jquery.com/jquery-1.12.4.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_04_select_hotel.c(6): Resource "http://www.adactinhotelapp.com/img-horizontal-carousel/img-scroll.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_04_select_hotel.c(6): web_submit_data("BookHotel.php") was successful, 15702 body bytes, 632 header bytes, 21 chunking overhead bytes  	[MsgId: MMSG-26385]
+Ending action TC_04_select_hotel.
+Starting action TC_05_book_hotel.
+TC_05_book_hotel.c(5): Notify: Saving Parameter "P_fakeCreditCard = 4252098765432109191".
+TC_05_book_hotel.c(6): Notify: Saving Parameter "P_fakeExpiryYear = 2028".
+TC_05_book_hotel.c(7): Notify: Saving Parameter "P_fakeExpiryMonth = 11/".
+TC_05_book_hotel.c(9): web_submit_data("BookingConfirm.php") started  	[MsgId: MMSG-26355]
+TC_05_book_hotel.c(9): Notify: Parameter Substitution: parameter "p_firstname" =  "Arun"
+TC_05_book_hotel.c(9): Notify: Parameter Substitution: parameter "p_lastname" =  "Roshan"
+TC_05_book_hotel.c(9): Notify: Parameter Substitution: parameter "p_address" =  "88 new street cantonment oothakadai trichy"
+TC_05_book_hotel.c(9): Notify: Parameter Substitution: parameter "P_fakeCreditCard" =  "4252098765432109191"
+TC_05_book_hotel.c(9): Notify: Parameter Substitution: parameter "P_fakeExpiryMonth" =  "11/"
+TC_05_book_hotel.c(9): Notify: Parameter Substitution: parameter "P_fakeExpiryYear" =  "2028"
+TC_05_book_hotel.c(9): Notify: Parameter Substitution: parameter "p_hotel_name" =  "Hotel Sunshine"
+TC_05_book_hotel.c(9): Notify: Parameter Substitution: parameter "p_location" =  "Melbourne"
+TC_05_book_hotel.c(9): Notify: Parameter Substitution: parameter "p_room_types" =  "Double"
+TC_05_book_hotel.c(9): Notify: Parameter Substitution: parameter "p_room" =  "2 - Two"
+TC_05_book_hotel.c(9): Notify: Parameter Substitution: parameter "P_pick_in" =  "05/11/2028"
+TC_05_book_hotel.c(9): Notify: Parameter Substitution: parameter "P_pick_out" =  "04/10/2027"
+TC_05_book_hotel.c(9): Notify: Parameter Substitution: parameter "p_adults_per_room" =  "2"
+TC_05_book_hotel.c(9): web_submit_data("BookingConfirm.php") was successful, 515 body bytes, 305 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+TC_05_book_hotel.c(42): web_url("BookedItinerary.php") started  	[MsgId: MMSG-26355]
+TC_05_book_hotel.c(42): Resource "https://adactinhotelapp.com/css/main.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_05_book_hotel.c(42): Resource "https://adactinhotelapp.com/img/AdactIn_logo.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_05_book_hotel.c(42): Resource "https://adactinhotelapp.com/img/hotel.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_05_book_hotel.c(42): web_url("BookedItinerary.php") was successful, 737595 body bytes, 305 header bytes, 732 chunking overhead bytes  	[MsgId: MMSG-26385]
+Ending action TC_05_book_hotel.
+Starting action TC_06_serach_booked_itinerary.
+TC_06_serach_booked_itinerary.c(6): web_custom_request("BookedItinerary.php_2") started  	[MsgId: MMSG-26355]
+TC_06_serach_booked_itinerary.c(6): Notify: Parameter Substitution: parameter "p_hotel_name" =  "Hotel Sunshine"
+TC_06_serach_booked_itinerary.c(6): Notify: Parameter Substitution: parameter "p_location" =  "Melbourne"
+TC_06_serach_booked_itinerary.c(6): Notify: Parameter Substitution: parameter "p_room" =  "2 - Two"
+TC_06_serach_booked_itinerary.c(6): Notify: Parameter Substitution: parameter "p_firstname" =  "Arun"
+TC_06_serach_booked_itinerary.c(6): Notify: Parameter Substitution: parameter "p_lastname" =  "Roshan"
+TC_06_serach_booked_itinerary.c(6): Notify: Parameter Substitution: parameter "P_pick_in" =  "05/11/2028"
+TC_06_serach_booked_itinerary.c(6): Notify: Parameter Substitution: parameter "P_pick_out" =  "04/10/2027"
+TC_06_serach_booked_itinerary.c(6): Notify: Parameter Substitution: parameter "p_room_types" =  "Double"
+TC_06_serach_booked_itinerary.c(6): Resource "https://adactinhotelapp.com/css/main.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_06_serach_booked_itinerary.c(6): Resource "https://adactinhotelapp.com/img/AdactIn_logo.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_06_serach_booked_itinerary.c(6): Resource "https://adactinhotelapp.com/img/hotel.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_06_serach_booked_itinerary.c(6): web_custom_request("BookedItinerary.php_2") was successful, 9925 body bytes, 305 header bytes, 20 chunking overhead bytes  	[MsgId: MMSG-26385]
+Ending action TC_06_serach_booked_itinerary.
+Starting action TC_07_logout.
+TC_07_logout.c(5): web_url("Logout.php") started  	[MsgId: MMSG-26355]
+TC_07_logout.c(5): Resource "https://adactinhotelapp.com/css/main.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_07_logout.c(5): Resource "https://adactinhotelapp.com/img/AdactIn_logo.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_07_logout.c(5): Resource "https://adactinhotelapp.com/img/hotel.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_07_logout.c(5): Detected non-resource "http://www.adactinhotelapp.com/img-horizontal-carousel/index.html" in "https://adactinhotelapp.com/Logout.php"  	[MsgId: MMSG-26573]
+TC_07_logout.c(5): Retrieving data from cache for "http://www.adactinhotelapp.com/img-horizontal-carousel/index.html"  	[MsgId: MMSG-26557]
+TC_07_logout.c(5): Resource "http://www.adactinhotelapp.com/img-horizontal-carousel/imgScroll.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_07_logout.c(5): Resource "http://adactinhotelapp.com/img/TestAutomationMS_CodedUI.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_07_logout.c(5): Resource "http://adactinhotelapp.com/img/ISTQB_foundation_level_exam.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_07_logout.c(5): Resource "http://adactinhotelapp.com/img/book_selenium_webdriver_app.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_07_logout.c(5): Resource "http://adactinhotelapp.com/img/book_hp_uft_navneesh_garg_hotelapp.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_07_logout.c(5): Resource "http://adactinhotelapp.com/img/TestAutomationSeleniumWebdriverCsharp.jpg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_07_logout.c(5): Resource "https://code.jquery.com/jquery-1.12.4.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_07_logout.c(5): Resource "http://www.adactinhotelapp.com/img-horizontal-carousel/img-scroll.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+TC_07_logout.c(5): web_url("Logout.php") was successful, 3520 body bytes, 305 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Ending action TC_07_logout.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
+Vuser 0 (thread 19168), ended OK."

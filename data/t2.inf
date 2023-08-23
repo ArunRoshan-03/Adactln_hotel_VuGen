@@ -1,0 +1,11 @@
+[t2]
+FileName1=t2_recommendations.json
+URL1=https://firefox-api-proxy.cdn.mozilla.net/desktop/v1/recommendations?locale=en-US&region=IN&count=30
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_2.xml
+RequestHeaderFile=t2_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t2_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

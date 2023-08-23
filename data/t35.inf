@@ -1,0 +1,13 @@
+[t35]
+FileName1=t35.html
+URL1=http://ocsp.digicert.com/
+Total=2
+RequestHeaderFile=t35_RequestHeader.txt
+RequestBodyFile=t35_RequestBody.txt
+ResponseHeaderFile=t35_ResponseHeader.txt
+ContentType=application/ocsp-response
+SnapshotXmlFile=snapshot_35.xml
+FileName2=t35_remote-settings.content-signature.mozilla.org-2023-10-09-11-30-14.html
+URL2=https://content-signature-2.cdn.mozilla.net/chains/remote-settings.content-signature.mozilla.org-2023-10-09-11-30-14.chain
+[ProtocolInfo]
+ProtocolId=QTWeb

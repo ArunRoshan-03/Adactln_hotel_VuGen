@@ -1,0 +1,15 @@
+[t49]
+FileName1=t49.json
+URL1=https://classify-client.services.mozilla.com/api/v1/classify_client/
+Total=3
+ContentType=application/json
+SnapshotXmlFile=snapshot_49.xml
+RequestHeaderFile=t49_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t49_ResponseHeader.txt
+FileName2=t49_normandy.content-signature.mozilla.org-2023-10-09-11-30-13.html
+URL2=https://content-signature-2.cdn.mozilla.net/chains/normandy.content-signature.mozilla.org-2023-10-09-11-30-13.chain?cachebust=2017-06-13-21-06
+FileName3=t49_normandy.content-signature.mozilla.org-2023-09-19-11-14-04.html
+URL3=https://content-signature-2.cdn.mozilla.net/chains/normandy.content-signature.mozilla.org-2023-09-19-11-14-04.chain?cachebust=2017-06-13-21-06
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,8 @@
+HTTP/1.1 101 Switching Protocols
+Connection: Upgrade
+Upgrade: websocket
+Sec-WebSocket-Accept: Ezb4c9R5bt7nK/qPjhpG6cB4lVU=
+Date: Wed, 23 Aug 2023 09:37:10 GMT
+Via: 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+

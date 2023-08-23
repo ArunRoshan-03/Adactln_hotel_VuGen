@@ -1,0 +1,92 @@
+[
+    {
+        "actionName": "TC_01_lanuch",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: adactinhotelapp.com",
+                "infFile": "t1.inf",
+                "time": 1692806208693
+            }
+        ],
+        "transactions": []
+    },
+    {
+        "actionName": "TC_02_login",
+        "steps": [
+            {
+                "stepId": "STEP2",
+                "stepName": "Submit Data: adactinhotelapp.com_2",
+                "infFile": "t3.inf",
+                "time": 1692806214468
+            }
+        ],
+        "transactions": []
+    },
+    {
+        "actionName": "TC_03_search_hotel",
+        "steps": [
+            {
+                "stepId": "STEP3",
+                "stepName": "Submit Data: SelectHotel.php",
+                "infFile": "t4.inf",
+                "time": 1692806224889
+            }
+        ],
+        "transactions": []
+    },
+    {
+        "actionName": "TC_04_select_hotel",
+        "steps": [
+            {
+                "stepId": "STEP4",
+                "stepName": "Submit Data: BookHotel.php",
+                "infFile": "t5.inf",
+                "time": 1692806225822
+            }
+        ],
+        "transactions": []
+    },
+    {
+        "actionName": "TC_05_book_hotel",
+        "steps": [
+            {
+                "stepId": "STEP5",
+                "stepName": "Submit Data: BookingConfirm.php",
+                "infFile": "t6.inf",
+                "time": 1692806226533
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Url: BookedItinerary.php",
+                "infFile": "t7.inf",
+                "time": 1692806236687
+            }
+        ],
+        "transactions": []
+    },
+    {
+        "actionName": "TC_06_serach_booked_itinerary",
+        "steps": [
+            {
+                "stepId": "STEP7",
+                "stepName": "Custom Request: BookedItinerary.php_2",
+                "infFile": "t8.inf",
+                "time": 1692806237620
+            }
+        ],
+        "transactions": []
+    },
+    {
+        "actionName": "TC_07_logout",
+        "steps": [
+            {
+                "stepId": "STEP8",
+                "stepName": "Url: Logout.php",
+                "infFile": "t9.inf",
+                "time": 1692806238193
+            }
+        ],
+        "transactions": []
+    }
+]

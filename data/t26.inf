@@ -1,0 +1,11 @@
+[t26]
+FileName1=t26.txt
+URL1=https://incoming.telemetry.mozilla.org/submit/firefox-desktop/pageload/1/fe3c5658-9477-4a10-bfc3-c0872598e77a
+Total=1
+RequestHeaderFile=t26_RequestHeader.txt
+RequestBodyFile=t26_RequestBody.txt
+ResponseHeaderFile=t26_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_26.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,11 @@
+[t34]
+FileName1=t34_changeset.json
+URL1=https://firefox.settings.services.mozilla.com/v1/buckets/blocklists/collections/gfx/changeset?_expected=1692730580117&_since=%221680018554787%22
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_34.xml
+RequestHeaderFile=t34_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t34_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

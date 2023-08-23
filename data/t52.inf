@@ -1,0 +1,13 @@
+[t52]
+FileName1=t52.htm
+URL1=https://adactinhotelapp.com/SelectHotel.php
+Total=2
+RequestHeaderFile=t52_RequestHeader.txt
+RequestBodyFile=t52_RequestBody.txt
+ResponseHeaderFile=t52_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_52.xml
+FileName2=t52_select_hotel.html
+URL2=https://adactinhotelapp.com/js/select_hotel.js
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Server: nginx
+Content-Length: 939
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: Content-Length, Backoff, Content-Type, Alert, Retry-After
+X-Content-Type-Options: nosniff
+Content-Security-Policy: default-src 'none'; frame-ancestors 'none'; base-uri 'none';
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 google
+Date: Wed, 23 Aug 2023 08:52:04 GMT
+Age: 2706
+Content-Type: application/json
+Cache-Control: max-age=3600,public
+Alt-Svc: clear
+

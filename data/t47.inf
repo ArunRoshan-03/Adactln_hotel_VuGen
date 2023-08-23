@@ -1,0 +1,13 @@
+[t47]
+FileName1=t47_update.xml
+URL1=https://aus5.mozilla.org/update/3/GMP/116.0.3/20230815173142/WINNT_x86_64-msvc-x64/en-US/release/Windows_NT%2010.0.0.0.19045.2364%20(x64)/default/default/update.xml
+Total=2
+ContentType=text/xml
+SnapshotXmlFile=snapshot_47.xml
+RequestHeaderFile=t47_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t47_ResponseHeader.txt
+FileName2=t47_aus.content-signature.mozilla.org-2023-10-09-11-30-15.html
+URL2=https://content-signature-2.cdn.mozilla.net/chains/aus.content-signature.mozilla.org-2023-10-09-11-30-15.chain
+[ProtocolInfo]
+ProtocolId=QTWeb

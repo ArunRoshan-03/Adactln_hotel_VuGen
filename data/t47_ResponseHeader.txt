@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+Server: nginx
+Rule-ID: 17805
+Rule-Data-Version: 1
+Content-Signature: x5u=https://content-signature-2.cdn.mozilla.net/chains/aus.content-signature.mozilla.org-2023-10-09-11-30-15.chain; p384ecdsa=Veyx3pDT2c0K3vaHmFnJw1mEUpB630OeRzE_wzsV7ZIOU_mWwHkLZa0pFdnOtEaJwuIIp9X7oEWjwN_-yBXGOPkDYh7J3lrt-wvSH1U3EX9RV4L4dyhWRhfgn2u7OUGD
+Strict-Transport-Security: max-age=31536000;
+X-Content-Type-Options: nosniff
+Content-Security-Policy: default-src 'none'; frame-ancestors 'none'
+X-Proxy-Cache-Status: EXPIRED
+Content-Encoding: gzip
+Via: 1.1 google
+Content-Length: 445
+Date: Wed, 23 Aug 2023 09:35:41 GMT
+Age: 98
+Content-Type: text/xml; charset=utf-8
+Vary: Accept-Encoding
+Cache-Control: public,max-age=90
+Alt-Svc: clear
+

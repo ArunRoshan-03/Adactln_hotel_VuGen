@@ -1,0 +1,5 @@
+"radiobutton_0=0&total_radiobutton=1&hotel_name_0=Hotel+Creek&location_0=Sydney&rooms_0=8+Rooms"
+"&arr_date_0=23%2F08%2F2023&dep_date_0=24%2F08%2F2023&no_days_0=1+Days&room_type_0=Double&price"
+"_night_0=AUD+%24+225&total_price_0=AUD+%24+235&continue=Continue&hotel_name=Hotel+Creek&locati"
+"on_name=Sydney&room_types=Double&rooms_no=8&arr_date=23%2F08%2F2023&dep_date=24%2F08%2F2023&no"
+"_days=1&adults_room=2&children_room=2&price_night=AUD+%24+225&total_price=AUD+%24+235"

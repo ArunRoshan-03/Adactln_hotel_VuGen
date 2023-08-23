@@ -1,0 +1,15 @@
+[t29]
+FileName1=t29.txt
+URL1=https://incoming.telemetry.mozilla.org/submit/firefox-desktop/baseline/1/c21efd9e-a4ed-49ef-8e6f-baca87d5e2a6
+Total=3
+RequestHeaderFile=t29_RequestHeader.txt
+RequestBodyFile=t29_RequestBody.txt
+ResponseHeaderFile=t29_ResponseHeader.txt
+ContentType=text/plain
+SnapshotXmlFile=snapshot_29.xml
+FileName2=t29_AdactIn_logo.png
+URL2=https://adactinhotelapp.com/img/AdactIn_logo.png
+FileName3=t29_hotel.jpg
+URL3=https://adactinhotelapp.com/img/hotel.jpg
+[ProtocolInfo]
+ProtocolId=QTWeb
